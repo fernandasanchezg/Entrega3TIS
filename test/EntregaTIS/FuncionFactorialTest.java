@@ -72,4 +72,34 @@ public class FuncionFactorialTest {
         assertEquals(expResult, result, 0.0);
         
     }
+
+    //Flujo 4 - Factorial de la suma de dos numeros
+    @org.junit.Test
+    public void TestFactorialFlujo4() {
+        float numero = 5 + 5;
+        
+        float expResult = 3628800;
+        float result = FuncionFactorial.factorial(numero);
+        assertEquals(expResult, result, 0.0);
+        
+    }
+    
+    //Flujo5 - Factorial de un numero decimal
+    @org.junit.Test
+    public void TestFactorialFlujo5() {
+        float numero = (float)2.2;
+        float expResult = (float) 2.2;
+        float result = FuncionFactorial.factorial(numero);
+        assertEquals(expResult, result, 0.0);        
+    }
+    
+    //Flujo6 - Factorial de un numero grande, solo da hasta 34, de resto sale infinito, se controla eso
+    @org.junit.Test
+    public void TestFactorialFlujo6() {
+        float numero = 34;
+        float expResult = (float) 2.9523282E38;
+        float result = FuncionFactorial.factorial(numero);
+        assertEquals(expResult, result, 0.0);
+        
+    }
 }
