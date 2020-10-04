@@ -67,6 +67,7 @@ local.properties
 nbproject/private/
 build/
 nbbuild/
+nbproject/
 dist/
 nbdist/
 nbactions.xml
