@@ -18,7 +18,7 @@ public class FuncionFactorial {
         /**
          * En la variable numeroFactorial el usuario agrega el numero al cual le desea sacar el factorial
          */
-        float numeroFactorial = (float) 34;
+        float numeroFactorial = (float) 5;
         System.out.println(factorial(numeroFactorial));
     }
     
