@@ -41,11 +41,8 @@ public class FuncionFactorialTest {
      */
     @org.junit.Test
     public void testMain() {
-        System.out.println("main");
         String[] args = null;
-        FuncionFactorial.main(args);
-        // TODO review the generated test code and remove the default call to fail.
-        
+        FuncionFactorial.main(args);       
     }
 
     /**
@@ -54,35 +51,25 @@ public class FuncionFactorialTest {
    
     @org.junit.Test
     public void TestFactorialFlujo1() {
-        System.out.println("factorial");
         float numero = 0;
         float expResult = 1;
         float result = FuncionFactorial.factorial(numero);
-        assertEquals(expResult, result, 0.0);
-        
-        
-        // TODO review the generated test code and remove the default call to fail.
-        
+        assertEquals(expResult, result, 0.0);      
     }
     
     @org.junit.Test
     public void TestFactorialFlujo2() {
-        System.out.println("factorial");
         float numero = -10;
         float expResult = -10;
         float result = FuncionFactorial.factorial(numero);
-        assertEquals(expResult, result, 0.0);
-        // TODO review the generated test code and remove the default call to fail.
-        
+        assertEquals(expResult, result, 0.0);    
     }
      @org.junit.Test
     public void TestFactorialFlujo3() {
-        System.out.println("factorial");
         float numero = 5;
         float expResult = 120;
         float result = FuncionFactorial.factorial(numero);
         assertEquals(expResult, result, 0.0);
-        // TODO review the generated test code and remove the default call to fail.
         
     }
 }
